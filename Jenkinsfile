@@ -8,6 +8,14 @@ pipeline {
                """
            }
        }
+       stages {
+       stage('Code Test') {
+           steps {
+               sh """
+               java Helloworld"
+               """
+           }
+       }
       stage('Deploy Code') {
           steps {
                sh """
