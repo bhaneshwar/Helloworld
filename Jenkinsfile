@@ -12,7 +12,7 @@ pipeline {
        stage('Code Test') {
            steps {
                sh """
-               java Helloworld"
+               java Helloworld
                """
            }
        }
